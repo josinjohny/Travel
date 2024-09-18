@@ -1,0 +1,181 @@
+/* General Styles */
+*{
+    font-family: "Sofadi One", system-ui;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-image: url('https://wallpaperaccess.com/full/185289.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+header h3{
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: black;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+.nav li a{
+    color: black;
+    font-size: larger;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.search-form {
+    max-width: 800px;
+    margin: auto;
+}
+.booking-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.flight-booking, .hotel-booking {
+    flex: 1; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.hero {
+    color: black;
+    text-align: center;
+    padding: 100px 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content h2 {
+    color: black;
+    font-size: 2rem;
+}
+
+.search-form .form-control,
+.search-form .btn {
+    border-radius: 0;
+}
+
+.btn-secondary {
+    border-radius: 0;
+}
+
+.btn-primary {
+    border-radius: 0;
+    background-color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+
+.featured-deals img {
+    max-width: 100%;
+    height: 250px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.testimonials .testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+.faq .accordion-button {
+    background-color: white;
+}
+
+.faq .accordion-body {
+    background-color: white;
+}
+#footer{
+    background-color: rgb(17, 86, 111);
+}
+
+/* Responsive Styles */
+@media (max-width: 767.98px) {
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .search-form {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .search-form .row > div {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .featured-deals .card {
+        margin-bottom: 20px;
+    }
+}
